@@ -4,7 +4,13 @@
 
 ## What this category is
 
-WOWSA ratifies marathon/open water swims: a swimmer or their team submits a completed swim for official recognition, and WOWSA (or, for pre-approved partner associations, a co-ratification process) reviews the evidence and either ratifies it or asks for more. Most tickets in this category are a swimmer, coach, or association contact asking "what's the status of my/our submission."
+WOWSA ratifies marathon/open water swims: a swimmer or their team submits a completed swim for official recognition, WOWSA reviews the evidence, and a committee either ratifies it or asks for more. Most tickets in this category are a swimmer or their crew asking "what's the status of my submission."
+
+## Three different things with confusingly similar names. Do not mix them up.
+
+1. **Standard WOWSA ratification** — an individual swimmer submits their own swim. Gets a `SWIM-####` ID and runs the full pipeline. **This folder covers it.** Tracked in the Workflow table described below.
+2. **Pre-swim planning / pre-approval inquiry** — a swimmer asking what they must do *before* attempting a swim so it qualifies. This is the front end of process 1, not a separate process. See `02-pre-approval-procedure-inquiry.md`.
+3. **Pre-approved ratification** — a **partner association** (LPSA, Swim Oresund, OWAAF India and others) submits an already-completed swim that the association ratified under its own authority, through the separate "2025 WOWSA Pre-approved Ratification" Jotform. **This is a different process and is NOT tracked in the Workflow table.** Its absence from that table is normal, not a lost submission. See `11-pre-approved-ratification-partner-association.md`.
 
 ## Where the data lives (read this before anything else)
 
@@ -16,7 +22,7 @@ WOWSA ratifies marathon/open water swims: a swimmer or their team submits a comp
 | WOWSA Ratifications | `apppdxgNikq9FRbPp` | Next-generation rebuild, backend only, **not yet cut over**. Has a richer relational schema (Swims, Submissions, Ratifications, Decision Versions, Committee Votes, Evidence, People) but is not the live source of customer-facing status as of this writing. Do not tell a customer their status based on this base unless Rose has confirmed cutover happened. |
 | Ratifications | `appy2Xm06RS845Q5L` | Legacy/unclear — do not use without checking with Rose first. |
 
-Intake itself still runs through **Jotform** (the ratification submission form and the "Pre-approved Ratification" form for partner associations), not Airtable directly — Airtable is where status is tracked after intake.
+Intake runs through **Jotform**, not Airtable directly. Airtable is where status is tracked after intake, **but only for the standard pipeline.** The "2025 WOWSA Pre-approved Ratification" Jotform is a separate form feeding a separate process whose tracking location is currently unconfirmed, see `11-pre-approved-ratification-partner-association.md`.
 
 **Gmail labels**: `SUPPORT/Ratifications` (parent label, plus many per-swim child labels like `SUPPORT/Ratifications/SWIM-1033`), `SUPPORT/Pre-Approved Ratifications`, `SUPPORT/Swimmer Ratification`, `SUPPORT/Jotform`. If a thread already has a `SUPPORT/Ratifications/SWIM-####` label, that SWIM ID is your fastest path to the Airtable record — search the Workflow table by Swim ID directly.
 
@@ -38,5 +44,6 @@ Ranked by volume from a ~65-70 thread deep-dive sample of ratification-specific 
 | `08-fee-payment-questions.md` | Fee/payment questions tied to ratification | 3-4 |
 | `09-dispute-correction-of-decision.md` | Dispute/correction of a ratification decision | 3 |
 | `10-governance-committee-threads.md` | Governance/committee threads | 2-3, mostly internal, likely out of scope for support |
+| `11-pre-approved-ratification-partner-association.md` | **Pre-approved ratification (separate process)** | Read this before searching the Workflow table for any association-submitted swim |
 
 **Write/consult guidance in this order**: status checks (#1) are both the most common and currently the most inconsistently handled (some same-day replies, others go months with repeated unanswered "gentle reminders" — this is the single highest-leverage fix available). Observer rules (#3) and pre-approval inquiries (#2) come next.

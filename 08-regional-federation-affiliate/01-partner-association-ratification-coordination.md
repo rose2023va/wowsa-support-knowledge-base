@@ -2,7 +2,9 @@
 
 ## What it is
 
-A partner association (e.g. LPSA) submitting or following up on a swim on behalf of one of their members, via the same Pre-Approved Ratification Jotform used for direct submissions, with the association named in the "Name of Association/Partner" field.
+A partner association (e.g. LPSA, Swim Oresund, OWAAF India) submitting or following up on a swim on behalf of one of their members, via the **"2025 WOWSA Pre-approved Ratification" Jotform**, with the association named in the "Name of Association / Partner" field.
+
+**This is a separate process from standard WOWSA ratification, not the same form and not the same pipeline.** For the full handling detail, including the tracking-location problem, read `01-ratification-swim-submission-status/11-pre-approved-ratification-partner-association.md` first. This file covers only the relationship side.
 
 ## How to recognize it
 
@@ -10,7 +12,7 @@ Sender is an association contact, not the swimmer directly. Subject often refere
 
 ## Where to check
 
-**Ratifications Pipeline** (`appgUjmgd0K8WWp31`), same as any other ratification status check, search by swimmer name or Swim ID. The association's own internal review step (if the co-ratification model requires the association to review before WOWSA does) may be what's actually pending, not WOWSA's side, ask the association contact directly if status looks stuck with no WOWSA-side notes explaining why.
+**Do NOT search the Ratifications Pipeline Workflow table for these.** Pre-approved swims are not tracked there, and finding nothing does not mean the submission was lost. The tracking location for pre-approved ratifications is currently unconfirmed; the practical sources are the Jotform notification emails under the `SUPPORT/Pre-Approved Ratifications` and `SUPPORT/LPSA` Gmail labels, plus Google Drive evidence folders and WooCommerce for any fee paid. Full detail and the ruled-out bases are in `01-ratification-swim-submission-status/11-pre-approved-ratification-partner-association.md`.
 
 ## How to answer
 

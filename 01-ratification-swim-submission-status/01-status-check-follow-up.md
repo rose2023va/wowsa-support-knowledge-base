@@ -13,7 +13,7 @@ Subject lines like "Re: [Swim name] Ratification," "Following up on ratification
 1. If the thread has a `SUPPORT/Ratifications/SWIM-####` label, that's the Swim ID — search for it directly in **Ratifications Pipeline** (`appgUjmgd0K8WWp31`), table "Workflow," field "Swim ID."
 2. If no Swim ID is visible, search Workflow by Swimmer's Name.
 3. Check the "Status" and "Notes" fields. Status will show where it sits (submitted, under review, awaiting evidence, ratified, etc).
-4. If it's a partner-association pre-approved swim (association named in the original Jotform submission, e.g. LPSA), also check whether the association's own review step is what's pending, not WOWSA's — see `08-regional-federation-affiliate/01-partner-association-ratification-coordination.md`.
+4. **First, check whether this is even a standard-pipeline swim.** If the sender is a partner association, or the thread references the "Pre-approved Ratification" form or names an association (LPSA, Swim Oresund, OWAAF India), it is a **pre-approved ratification**, a different process. It will NOT be in the Workflow table and that is normal, not a lost submission. Stop here and go to `11-pre-approved-ratification-partner-association.md`.
 
 ## How to answer
 
@@ -24,6 +24,6 @@ Subject lines like "Re: [Swim name] Ratification," "Following up on ratification
 
 ## Escalate if
 
-- No record exists in Workflow at all for a swim the customer says they submitted (possible lost submission, don't tell them this outright, check with Rose first).
+- No record exists in Workflow at all for a swim the customer says they submitted. **Before treating this as a lost submission, rule out that it is a pre-approved ratification** (see step 1 above), which legitimately does not appear in that table. If it is genuinely a standard-pipeline swim with no record, don't tell the customer it's missing, check with Rose first.
 - The case has been open more than 60 days with no visible movement in Notes.
 - The customer's tone indicates frustration or an implied complaint about the delay itself — that can tip into `11-next-in-line/complaints-disputes-legal.md` territory.
